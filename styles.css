@@ -1,0 +1,48 @@
+body {
+  background: teal;
+  color: oldlace;
+  font-family:Comic Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+
+}
+
+code {
+  font-family: Comic Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.app {
+  color: rgb(85, 47, 19);
+  padding: 10px;
+  height: 100vh;
+}
+
+.todo-list{
+  background: white;
+  border-radius: 4px;
+  padding: 5px;
+  max-width: 400px;
+}
+
+.todo{
+  background: lightblue;
+  padding: 1px 10px;
+  font-size: 16px;
+  margin-bottom: 6px;
+  border-radius: 3px;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.input{
+  background: rgba(253, 245, 230, 0.782);
+  color: black;
+  width: 100%;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: none;
+  padding: 1rem;
+  height: 2.25em;
+  font-family: Comic Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, serif;
+  font-size: 14px;
+}
